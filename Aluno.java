@@ -1,3 +1,5 @@
+// Programação Feita por Fabiano Filho e Rodrigo Melo
+
 package atividade_pesquisa;
 
 public class Aluno implements Hashable{
