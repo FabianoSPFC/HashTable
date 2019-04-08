@@ -51,23 +51,23 @@ public class Aplicacao {
             table_10.insert(alunos[i]);
         }
         
-        System.out.println("----Antes da Remoção dos Alunos---------\n");
+        System.out.println("\tAntes da Remoção dos Alunos\n");
         table.printColision();
         
         table.remove(alunos[0]);        
-        System.out.println("\n----Depois da Remoção dos Alunos---------\n");
+        System.out.println("\n\tDepois da Remoção dos Alunos\n");
         table.printColision();  
         
-        System.out.println("\n----Fator de Carga 1---------\n");
+        System.out.println("\n\t\tFator de Carga 1\n");
         table_100.printColision();
         
-        System.out.println("\n----Fator de Carga 2---------\n");
+        System.out.println("\n\t\tFator de Carga 2\n");
         table_50.printColision();
         
-        System.out.println("\n----Fator de Carga 5---------\n");
+        System.out.println("\n\t\tFator de Carga 5\n");
         table_20.printColision();
         
-        System.out.println("\n----Fator de Carga 10---------\n");
+        System.out.println("\n\t\tFator de Carga 10\t\t\n");
         table_10.printColision();
     }
 }
