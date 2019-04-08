@@ -69,7 +69,7 @@ public class Separate_Hash_Table {
         for (int j = 0; j < theList.length; j++) {
             tam_lista = theList[j].size();
             if(tam_lista>=2){
-                System.out.println("Houveram " + theList[j].size() + " colisões de alunos na posição " + j );
+                System.out.println("Quantidade de Colisões: " + theList[j].size() + "\tPosição das colisões " + j );
                 cont_colisoes+=tam_lista;
             }
             else if (tam_lista==0){
@@ -78,7 +78,7 @@ public class Separate_Hash_Table {
             }
 
         }
-        System.out.println("\nObtivemos um total de " + cont_colisoes + " colisões e " + pos_vazias + " posições vazias");
+        System.out.println("\nTotal de " + cont_colisoes + " Colisões"  + " e "+ pos_vazias + " Posições vazias na tabela ");
     }
 
     public void remove(Hashable x) {
