@@ -29,7 +29,7 @@ public class Aluno implements Hashable{
     }
     
     public void setmatricula(String matricula){
-        this.nome = matricula;
+        this.matricula = matricula;
     }
     
     @Override
